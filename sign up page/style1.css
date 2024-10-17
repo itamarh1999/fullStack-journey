@@ -1,0 +1,110 @@
+
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(Norse-Bold.otf);
+}
+body{
+    font-size: 40;
+    padding: 0%;
+    margin-top: 0%;
+}
+.image-container
+{
+    background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    position: absolute;
+    left: 0%;
+    width: 30%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    font-size: 40;
+}
+.logo-containter
+{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: rgb(0 0 0 / .5);
+    font-size: larger;
+    width:100%;
+    height: 20%;
+
+}
+.image-text{
+    position: absolute;
+    left: 40%;
+    bottom: 1%;
+    color: white;
+    font-size: medium;
+}
+.odin-img{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    top: 0%;
+    left: 40%;
+}
+.odin-text{
+    color: white;
+    position: absolute;
+    left: 60%;
+    font-family: Norse-Bold ;
+    top: 0%;
+    font-size: 300%;
+}
+.right{
+    background-color: whitesmoke ;
+    position: absolute;
+    right: 0%;
+    width: 70%;
+    height: 100%;
+    font-family: Arial;
+
+}
+.form-container{
+    background-color: white;
+
+}
+.input-group{
+    margin-left: 5%;
+    flex: 1;
+    margin-bottom: 20px;
+}
+.input-row {
+    display: flex;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .text-container{
+    margin-left: 5%;
+}
+h2{margin-left: 5%;}
+.apply{
+    margin-top: 3%;
+    margin-left: 10%;
+    color: white ;
+    background-color: #596D48;
+    width: 15%;
+    height: 5%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input:focus{
+    border-color: blue;
+    box-shadow: 1px;
+}
+input:invalid{
+    border-color: red;
+}
+.final{
+    margin-left: 5%;
+    display: flex;
+}
+.login-link{
+    margin-top: 1.7%;
+}
