@@ -24,7 +24,7 @@ body{
     top: 25%;
     transform: translateX(-50%) translateY(-50%);
     background-color: rgb(0 0 0 / .5);
-    font-size: 2rem;
+    font-size: 2.3vw;
     width:100%;
     height: 20%;
 
@@ -42,6 +42,7 @@ body{
     height: 100%;
     top: 0%;
     left: 40%;
+    margin: auto;
 }
 .odin-text{
     color: white;
@@ -49,6 +50,7 @@ body{
     left: 60%;
     font-family: Norse-Bold, serif ;
     top: 0%;
+    text-align: center;
 }
 .right{
     background-color: whitesmoke ;
@@ -90,7 +92,7 @@ h2{margin-left: 5%;}
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: xx-large;
+    font-size: 1.5vw;
 }
 input:focus{
     border-color: blue;
